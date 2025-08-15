@@ -39,7 +39,7 @@
 
   <!-- balenaEtcher -->
   <a href="https://www.balena.io/etcher/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Etcher_%28software%29_logo.svg" alt="balenaEtcher" width="85" height="40"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Etcher-icon.png" alt="balenaEtcher" width="40" height="40"/>
   </a>
   <!-- Windows -->
   <a href="https://www.microsoft.com/windows" target="_blank" rel="noreferrer">
@@ -48,6 +48,10 @@
   <!-- Linux (Tux) -->
   <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
     <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="40" height="40"/>
+  </a>
+  <!-- Linux (Tux) -->
+  <a href="https://www.windsurf.com/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.prod.website-files.com/66cdf84d5ef945a2f765fc6b/67f817d215bd53d46a7b845f_Windsurf.svg" alt="WindSurf" width="85" height="46"/>
   </a>
 </p>
 
