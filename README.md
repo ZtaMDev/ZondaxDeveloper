@@ -28,25 +28,27 @@
 #### **Tools & Environments**
 <p>
   <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="VS Code" width="40" height="40"/></a>
-  <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" alt="Bash" width="40" height="40"/></a>
-  <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="VS Code" width="40" height="40"/></a>
-  <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="VS Code" width="40" height="40"/></a>
-  <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="VS Code" width="40" height="40"/></a>
-  <!-- Kali Linux -->
-  <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Kali-dragon-icon.svg/2048px-Kali-dragon-icon.svg.png" alt="VS Code" width="40" height="40"/></a>
-  <!-- Rufus (por ahora, podemos usar un ícono genérico mientras encontramos uno válido) -->
-  <a href="#"><img src="https://via.placeholder.com/40" alt="Rufus (placeholder)" width="40" height="40"/></a>
-  <!-- BalenaEtcher (placeholder también) -->
-  <a href="#"><img src="https://via.placeholder.com/40" alt="Balena Etcher (placeholder)" width="40" height="40"/></a>
+  <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" alt="Bash" width="40" height="40"></a>
+  <a href="https://static.thenounproject.com/png/4907525-200.png" alt="Windsurf" width="40" height="40"></a>
+  <a href="https://upload.wikimedia.org/wikipedia/commons/9/9c/GitHub_Copilot_Logo.svg" alt="GitHub Copilot" width="40" height="40"></a>
+  <a href="https://cdn.prod.website-files.com/66cdf84d5ef945a2f765fc6b/67f817d215bd53d46a7b845f_Windsurf.svg" alt="WindSurf" width="40" height="40"></a>
+  <!-- Rufus -->
+  <a href="https://rufus.ie/" target="_blank" rel="noreferrer">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Rufus-logo.png" alt="Rufus" width="40" height="40"/>
+  </a>
+
+  <!-- balenaEtcher -->
+  <a href="https://www.balena.io/etcher/" target="_blank" rel="noreferrer">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Etcher_%28software%29_logo.svg" alt="balenaEtcher" width="85" height="40"/>
+  </a>
   <!-- Windows -->
-  <a href="#"><img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/windows.png" alt="Windows" width="40" height="40"/></a>
-  <!-- Linux -->
-  <a href="#"><img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/linux.png" alt="Linux" width="40" height="40"/></a>
+  <a href="https://www.microsoft.com/windows" target="_blank" rel="noreferrer">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows" width="40" height="40"/>
+  </a>
+  <!-- Linux (Tux) -->
+  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="40" height="40"/>
+  </a>
 </p>
 
-#### **Other Interests**
-<p>
-  <img src="https://static.thenounproject.com/png/4907525-200.png" alt="Windsurf" width="40" height="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/GitHub_Copilot_Logo.svg" alt="GitHub Copilot" width="40" height="40"/>
-</p>
-
+---
