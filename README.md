@@ -4,7 +4,7 @@
 ---
 
 ### About Me
-- 🔭 I’m currently working on **[Power Edit](https://github.com/ZtaMDev/PowerEdit)** — a modern code editor.
+- 🔭 I’m currently working on **[Dars Framework](https://github.com/ZtaMDev/Dars-Framework)** — a modern python framework.
 - 🌱 I’m currently learning **HTML5, CSS, and JavaScript**.
 - 🤖 Experienced with **Vibe Coding**, **Artificial Intelligence (AI)**, **AI Agents**, and applying AI for **software creation** across almost every domain except image generation.
 - 💡 Skilled in system integration, desktop automation, and indie game development.
