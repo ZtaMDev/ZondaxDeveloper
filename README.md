@@ -9,7 +9,7 @@
 - 🤖 Experienced with **Vibe Coding**, **Artificial Intelligence (AI)**, **AI Agents**, and applying AI for **software creation** across almost every domain except image generation.
 - 💡 Skilled in system integration, desktop automation, and indie game development.
 - 🛠 Passionate about working with **Linux & Windows systems**, installation tools, and development environments.
-- 📫 Contact me at **zondax2009@gmail.com**
+- 📫 Contact me at **ztadevs@gmail.com**
 
 ---
 
