@@ -4,8 +4,7 @@
 ---
 
 ### About Me
-- 🔭 I’m currently working on **[Dars Framework](https://github.com/ZtaMDev/Dars-Framework)** — a modern python framework.
-- 🌱 I’m currently learning **HTML5, CSS, and JavaScript**.
+- 🔭 I’m currently working on **[Spectral Logs]((https://ztamdev.github.io/SpectralLogs/))** — a modern fast nodejs typescript and web logger.
 - 🤖 Experienced with **Vibe Coding**, **Artificial Intelligence (AI)**, **AI Agents**, and applying AI for **software creation** across almost every domain except image generation.
 - 💡 Skilled in system integration, desktop automation, and indie game development.
 - 🛠 Passionate about working with **Linux & Windows systems**, installation tools, and development environments.
