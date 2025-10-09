@@ -1,0 +1,33 @@
+---
+import ProjectCard from './ProjectCard.astro';
+
+const { id = 'proyectos', title = 'Proyectos', projects = [
+  {
+    title: 'Proyecto A',
+    image: 'https://picsum.photos/seed/a/1200/675',
+    description: 'Aplicación web con autenticación, API y diseño responsive.',
+    href: 'https://github.com/tu-usuario/proyecto-a'
+  },
+  {
+    title: 'Proyecto B',
+    image: 'https://picsum.photos/seed/b/1200/675',
+    description: 'Landing page animada con SEO y alto rendimiento.',
+    href: 'https://tu-dominio.com/proyecto-b'
+  },
+  {
+    title: 'Proyecto C',
+    image: 'https://picsum.photos/seed/c/1200/675',
+    description: 'Dashboard con visualizaciones y diseño dark mode.',
+    href: 'https://github.com/tu-usuario/proyecto-c'
+  },
+] } = Astro.props;
+---
+<section id={id} class="container-smooth py-20" data-reveal>
+  <div class="mb-8">
+    <h2 class="section-title bg-gradient-to-r from-brand-400 to-accent-500 bg-clip-text text-transparent">{title}</h2>
+    <p class="section-subtitle mt-2 text-slate-300/90">Una selección de proyectos recientes.</p>
+  </div>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {projects.map((p) => <ProjectCard project={p} />)}
+  </div>
+</section>

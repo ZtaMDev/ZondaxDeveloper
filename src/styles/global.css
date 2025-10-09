@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Violet / Indigo / Blue dark gradient */
+  --bg-gradient: radial-gradient(1200px 600px at 10% -10%, rgba(139,92,246,0.22), transparent 60%),
+                 radial-gradient(1000px 500px at 90% 10%, rgba(99,102,241,0.18), transparent 60%),
+                 linear-gradient(180deg, #0b0b19 0%, #0a0f1f 100%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-900 text-slate-100 antialiased;
+  background-image: var(--bg-gradient);
+  /* Avoid fixed attachment due to paint/reflow cost on some GPUs */
+  background-attachment: scroll;
+}
+
+.container-smooth {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.card-glass {
+  @apply bg-white/5 dark:bg-white/5 rounded-2xl shadow-glass border border-white/10 backdrop-blur-md transition-transform duration-300;
+}
+
+.btn-primary {
+  @apply inline-flex items-center gap-2 rounded-full text-white px-5 py-2.5 transition-all duration-200 shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-0 focus:ring-brand-600/40;
+  background-image: linear-gradient(135deg, theme('colors.brand.600'), theme('colors.indigo.500'));
+}
+
+.btn-ghost {
+  @apply inline-flex items-center gap-2 rounded-full border border-white/20 text-white/90 px-5 py-2.5 transition-all duration-200;
+}
+
+.section-title {
+  @apply text-2xl sm:text-3xl md:text-4xl font-semibold tracking-tight;
+}
+
+.section-subtitle {
+  @apply text-slate-300 max-w-2xl;
+}
+
+/* Decorative orbs for subtle parallax background; used in BaseLayout */
+.orb {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(24px);
+  opacity: .28;
+  pointer-events: none;
+}
+.orb-1 { background: radial-gradient(circle, rgba(139,92,246,.7), transparent 60%); }
+.orb-2 { background: radial-gradient(circle, rgba(99,102,241,.7), transparent 60%); }
+
+/* Reveal helper (IntersectionObserver toggles classes) */
+.reveal-initial { opacity: 0; transform: translateY(16px); }
+.reveal-active { opacity: 1; transform: translateY(0); transition: opacity .6s ease, transform .6s ease; }
+
+/* Hover elevate for cards */
+.hover-elevate:hover { transform: translateY(-4px); }
+
+/* Fancy hover effects */
+.btn-primary:hover {
+  transform: translateY(-1px) scale(1.03);
+  box-shadow: 0 10px 30px -10px rgba(124,58,237,0.45);
+  background-image: linear-gradient(135deg, theme('colors.brand.500'), theme('colors.indigo.400'));
+}
+
+.btn-ghost:hover {
+  @apply border-white/30 text-white bg-white/10;
+  transform: translateY(-1px);
+}
+
+.hover-scale:hover { transform: scale(1.02); }
+
+/* Reduce motion for users/system pref to improve performance */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

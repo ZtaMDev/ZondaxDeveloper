@@ -1,0 +1,18 @@
+---
+const { id = 'sobre-mi', title = 'Más sobre mí', text = `Soy un desarrollador apasionado por crear interfaces de usuario impecables y accesibles.
+Me enfoco en rendimiento, DX y animaciones sutiles que elevan la experiencia.` } = Astro.props;
+---
+<section id={id} class="container-smooth py-20" data-reveal>
+  <div class="card-glass p-8 md:p-10 hover-elevate">
+    <h2 class="section-title bg-gradient-to-r from-brand-400 to-accent-500 bg-clip-text text-transparent">{title}</h2>
+    <div class="mt-4 h-px bg-white/10"></div>
+    <p class="mt-6 text-lg leading-relaxed text-slate-300 whitespace-pre-line">{text}</p>
+    <div class="mt-6 h-px bg-white/10"></div>
+    <ul class="mt-6 grid sm:grid-cols-2 gap-3 text-slate-300/90 text-sm">
+      <li>• Vibe Coding, IA y agentes aplicados a software</li>
+      <li>• Integración de sistemas y automatización de escritorio</li>
+      <li>• Desarrollo de software en Python, web/nodejs, y C#</li>
+      <li>• Linux y Windows; tooling y entornos de desarrollo</li>
+    </ul>
+  </div>
+</section>

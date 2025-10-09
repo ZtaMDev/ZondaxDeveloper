@@ -1,0 +1,66 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import About from '../components/About.astro';
+import Projects from '../components/Projects.astro';
+import Contact from '../components/Contact.astro';
+---
+<BaseLayout title="ZtaMDev | Portafolio">
+  <Hero
+    handle="ZtaMDev"
+    name="Manuel Ricardo"
+    subtitle="Desarrollador web/NodeJS C#, python, creador de proyectos de software con IA, automatización y experiencias web modernas."
+    ctaHref="#sobre-mi"
+  />
+
+  <About
+    id="sobre-mi"
+    title="Sobre mí"
+    text={`Soy Manuel Ricardo, conocido como ZtaMDev. Me apasiona el desarrollo de software y llevo aprendiendo programacion y informatica en general desde los 7 años, he creado proyectos web/NodeJS C#, python tengo experiencia en IA y agentes, aplicados a la creación de software. También disfruto la integración de sistemas, automatización de escritorio y entornos Linux/Windows.`}
+  />
+
+  <Projects
+    id="proyectos"
+    title="Proyectos destacados"
+    projects={[
+      {
+        title: 'Spectral Logs',
+        image: 'SpecLogs.png',
+        description: 'Logger moderno y rápido para Node.js/TypeScript y web, pensado para DX y rendimiento. Ultrarrápido, con colores avanzados, soporte completo TypeScript, manejo inteligente de errores, sistema de complementos extensible, cero dependencias y herramientas CLI integradas.',
+        href: 'https://ztamdev.github.io/SpectralLogs/'
+      },
+      {
+        title: 'Dars Framework',
+        image: 'Dars.png',
+        description: 'Dars es un framework de interfaz de usuario (UI) de Python para crear aplicaciones web modernas e interactivas con código Python. Escribe tu interfaz en Python, expórtala a HTML/CSS/JS estático e impleméntala en cualquier lugar.',
+        href: 'https://github.com/ZtaMDev/Dars-Framework'
+      },
+      {
+        title: 'PyDepM',
+        image: 'PyDepM.png',
+        description: 'PyDepM (Gestor de Dependencias de Python) es una herramienta moderna de gestión de dependencias para proyectos Python que combina la simplicidad de npm con el potente ecosistema de empaquetado de Python. Ofrece dos herramientas principales: pydep para la gestión de dependencias y el andamiaje de proyectos, y pydepx para una mejor ejecución de scripts.',
+        href: 'https://github.com/ZtaMDev/PyDepM'
+      },
+      {
+        title: 'ElyxLang',
+        image: 'ElyxLang.png',
+        description: 'Elyx es un lenguaje de scripting compacto implementado en TypeScript y diseñado para ejecutarse en Deno. Surgió a partir de un proyecto de intérprete basado en tutoriales y se ha ampliado con numerosas funciones prácticas, como un REPL utilizable, clases, try/catch, switch/case y binarios CLI listos para empaquetar.',
+        href: 'https://github.com/ZtaMDev/ElyxLang'
+      },
+      {
+        title: 'PowerEdit(Simple Code Editor)',
+        image: 'PowerEdit.png',
+        description: 'Mi primer proyecto de código abierto. Tras un mes de intenso desarrollo, se ha convertido en algo de lo que estoy orgulloso, Power Edit es un editor de codigo simple creado en python con PyQt5 con soporte a extensiones tanto de lenguajes de programacion soportados como de temas y una api interna para crear paneles y manejar ui del editor simplemente instalando extensiones.',
+        href: 'https://github.com/ZtaMDev/PowerEdit'
+      },
+      {
+        title: 'Zta-DevTools CLI',
+        image: 'ztadevtools.png',
+        description: 'Zta-DevTools es una herramienta simple de línea de comandos para desarrolladores de Python. Ayuda a gestionar entornos, paquetes, vulnerabilidades y tareas repetitivas con facilidad.',
+        href: 'https://github.com/ZtaMDev/zta-devtools'
+      }
+    ]}
+  />
+
+  <Contact id="contacto" github="ZtaMDev" email="ztadevs@gmail.com" />
+</BaseLayout>

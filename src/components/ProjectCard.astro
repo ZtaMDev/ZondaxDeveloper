@@ -1,0 +1,21 @@
+---
+export interface Project {
+  title: string;
+  image: string;
+  description: string;
+  href: string;
+}
+const { project } = Astro.props as { project: Project };
+---
+<article class="card-glass overflow-hidden group flex flex-col hover-elevate transition-all data-[reveal]:reveal-initial" data-reveal>
+  <div class="aspect-video overflow-hidden">
+    <img src={project.image} alt={project.title} loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+  </div>
+  <div class="p-6 flex-1 flex flex-col">
+    <h3 class="text-xl font-semibold">{project.title}</h3>
+    <p class="mt-2 text-slate-300 flex-1">{project.description}</p>
+    <div class="mt-4">
+      <a href={project.href} target="_blank" rel="noopener" class="btn-primary group-hover:shadow-glow">Saber más</a>
+    </div>
+  </div>
+</article>

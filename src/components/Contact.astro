@@ -1,0 +1,16 @@
+---
+const { id = 'contacto', github = 'ZtaMDev', email = 'ztadevs@gmail.com' } = Astro.props;
+---
+<section id={id} class="container-smooth py-20" data-reveal>
+  <div class="card-glass p-8 md:p-10">
+    <h2 class="section-title bg-gradient-to-r from-brand-400 to-accent-500 bg-clip-text text-transparent">Contáctame</h2>
+    <p class="mt-3 section-subtitle">¿Te interesa colaborar o tienes una idea? Hablemos.</p>
+
+    <div class="my-6 h-px bg-white/10"></div>
+
+    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+      <a href={`https://github.com/${github}`} target="_blank" rel="noopener" class="btn-primary">GitHub @{github}</a>
+      <a href={`mailto:${email}`} class="btn-ghost">{email}</a>
+    </div>
+  </div>
+</section>

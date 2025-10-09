@@ -1,0 +1,30 @@
+---
+const {
+  handle = 'Manuel Ricardo',
+  name = 'ZtaMDev',
+  subtitle = 'Desarrollador web/NodeJS C#, python, creador de proyectos de software con IA, automatización y experiencias web modernas.',
+  ctaHref = '#sobre-mi'
+} = Astro.props;
+---
+<section class="container-smooth pt-8 pb-24 grid md:grid-cols-2 gap-10 items-center">
+  <div class="order-2 md:order-1" data-reveal>
+    <h1 class="text-5xl sm:text-6xl md:text-7xl font-extrabold leading-tight bg-gradient-to-br from-brand-400 via-accent-500 to-white bg-clip-text text-transparent tracking-tight">
+      {handle}
+    </h1>
+    <h2 class="mt-2 text-2xl sm:text-3xl text-white/90 font-semibold">{name}</h2>
+    <p class="mt-4 text-lg text-slate-300 max-w-prose">
+      {subtitle}
+    </p>
+    <div class="mt-8 flex gap-3">
+      <a href={ctaHref} class="btn-primary">Más sobre mí</a>
+      <a href="#proyectos" class="btn-ghost">Ver proyectos</a>
+    </div>
+  </div>
+  <div class="order-1 md:order-2 relative" data-reveal>
+    <div class="relative aspect-square flex items-center justify-center animate-float">
+      <div class="absolute w-4/5 h-4/5 rounded-full blur-3xl opacity-40"
+           style="background: radial-gradient(circle at 50% 50%, rgba(124,58,237,0.55), rgba(99,102,241,0.25) 60%, transparent 70%);"></div>
+      <img src="/logo.png?v=1" alt="ZtaMDev logo" class="relative w-4/5 md:w-[85%] drop-shadow-[0_0_40px_RGBA(124,58,237,0.35)]" />
+    </div>
+  </div>
+</section>
