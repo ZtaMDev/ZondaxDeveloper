@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm ZtaDev</h1>
+<h1 align="center">Hi 👋, I'm Manuel Ricardo known as ZtaMDev</h1>
 <h3 align="center">A passionate indie game developer and creator of unique coding projects & adventures</h3>
 
 ---
