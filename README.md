@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Manuel Ricardo known as ZtaMDev</h1>
-<h3 align="center">A passionate indie game developer and creator of unique coding projects & adventures</h3>
+<h3 align="center">Web/NodeJS, C#, Python developer, creator of software projects with AI, automation, and modern web experiences.</h3>
 
 ---
 My Official website: https://ztamdev.github.io/ZtaMDev/
@@ -7,11 +7,11 @@ My Official website: https://ztamdev.github.io/ZtaMDev/
 ---
 
 ### About Me
-- 🔭 I’m currently working on **[Spectral Logs]((https://ztamdev.github.io/SpectralLogs/))** — a modern fast nodejs typescript and web logger.
-- 🤖 Experienced with **Vibe Coding**, **Artificial Intelligence (AI)**, **AI Agents**, and applying AI for **software creation** across almost every domain except image generation.
-- 💡 Skilled in system integration, desktop automation, and indie game development.
-- 🛠 Passionate about working with **Linux & Windows systems**, installation tools, and development environments.
-- 📫 Contact me at **ztadevs@gmail.com**
+-  I’m currently working on **[Spectral Logs]((https://ztamdev.github.io/SpectralLogs/))** — a modern fast nodejs typescript and web logger.
+-  Experienced with **Vibe Coding**, **Artificial Intelligence (AI)**, **AI Agents**, and applying AI for **software creation** across almost every domain except image generation.
+-  Skilled in system integration, desktop automation, and indie game development.
+-  Passionate about working with **Linux & Windows systems**, installation tools, and development environments.
+-  Contact me at **ztadevs@gmail.com**
 
 ---
 
