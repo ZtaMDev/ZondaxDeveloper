@@ -5,5 +5,6 @@ export default defineConfig({
   integrations: [tailwind({
     applyBaseStyles: true,
   })],
-  site: 'https://example.com',
+  site: 'https://ztamdev.github.io',
+  outDir: './docs',
 });
