@@ -8,7 +8,6 @@ My Official website: https://ztamdev.github.io/ZtaMDev/
 
 ### About Me
 -  I’m currently working on **[Spectral Logs]((https://ztamdev.github.io/SpectralLogs/))** — a modern fast nodejs typescript and web logger.
--  Experienced with **Vibe Coding**, **Artificial Intelligence (AI)**, **AI Agents**, and applying AI for **software creation** across almost every domain(i know how to use it, but i also know how to code.).
 -  Skilled in system integration, desktop automation, and indie game development.
 -  Passionate about working with **Linux & Windows systems**, installation tools, and development environments.
 -  Contact me at **ztadevs@gmail.com**
