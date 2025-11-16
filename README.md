@@ -1,11 +1,6 @@
 <h1 align="center">Hi 👋, I'm Manuel Ricardo known as ZtaMDev</h1>
 <h3 align="center">Web/NodeJS, C#, Python developer, creator of software projects with AI, automation, and modern web experiences.</h3>
 
----
-My Official website: https://ztamdev.github.io/ZtaMDev/
-
----
-
 ### About Me
 -  I’m currently working on **[Spectral Logs]((https://ztamdev.github.io/SpectralLogs/))** — a modern fast nodejs typescript and web logger.
 -  Skilled in system integration, desktop automation, and indie game development.
