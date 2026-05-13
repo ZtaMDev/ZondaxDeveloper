@@ -2,7 +2,7 @@
 <h3 align="center">Web/NodeJS, C#, Python dev
 
 ### About Me
--  I’m currently working on **[Pulse-js](https://pulse-js.vercel.app/)** A semantic reactivity system for modern applications. Separate reactive data (sources) from business conditions (guards) with a declarative, composable, and observable approach.
+-  I’m currently working on **[Dars Framework](https://ztamdev.github.io/Dars-Framework/)** modern Python Full-Stack framework for web and desktop apps development. 
 -  Skilled in system integration, desktop automation, and indie game development.
 -  Experienced on AI and vibe coding(but i know how to code).
 -  Passionate about working with **Linux & Windows systems**, installation tools, and development environments.
